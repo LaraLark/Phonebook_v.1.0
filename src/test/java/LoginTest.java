@@ -1,31 +1,39 @@
+import models.User;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
 
+    @BeforeMethod
+    public void preCondition(){
+        if(!app.userHelper().isLogged()){
+            app.userHelper().logOut();
+        }
+    }
+
     @Test
     public void loginTestPositive(){
 
-        click(By.xpath("//a[.='LOGIN']"));
-        type(By.xpath("//input[@placeholder='Email']"),"noa@gmail.com");
-        type(By.xpath("//input[@placeholder='Password']"),"Nnoa12345$");
-        click(By.xpath("//button[.=' Login']"));
-        pause(2000);
-        String logOut = getText(By.xpath("//button[normalize-space()='Sign Out']"));
-        Assert.assertTrue(logOut.contains("Sign Out"));
+        app.userHelper().openLoginForm();
+        app.userHelper().fillLoginForm("noa@gmail.com","Nnoa12345$");
+        app.userHelper().login();
+        app.userHelper().pause(3000);
+        String loginS = app.userHelper().getText(By.xpath("//a[.='ADD']"));
+        Assert.assertEquals(loginS,"ADD");
 
             }
-         @Test
-    public void loginTestPositiveNewContact(){
-        click(By.xpath("//a[.='LOGIN']"));
-        type(By.xpath("//input[@placeholder='Email']"),"mariam@gmail.com");
-        type(By.xpath("//input[@placeholder='Password']"),"Mm123456$");
-        click(By.xpath("//button[.=' Login']"));
-        pause(2000);
-        String loginNC=getText(By.xpath("//div//h1[.=' No Contacts here!']"));
-        Assert.assertEquals(loginNC,"No Contacts here!");
+            @Test
+    public void loginTestPositiveDto(){
+                User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+                app.userHelper().openLoginForm();
+                app.userHelper().fillLoginForm(user);
+                app.userHelper().login();
+                app.userHelper().pause(3000);
+                String loginS = app.userHelper().getText(By.xpath("//a[.='ADD']"));
+                Assert.assertEquals(loginS,"ADD");
 
-    }
+            }
+
 }
