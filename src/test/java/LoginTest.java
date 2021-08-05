@@ -8,7 +8,7 @@ public class LoginTest extends TestBase{
 
     @BeforeMethod
     public void preCondition(){
-        if(!app.userHelper().isLogged()){
+        if(app.userHelper().isLogged()){
             app.userHelper().logOut();
         }
     }
@@ -22,6 +22,7 @@ public class LoginTest extends TestBase{
         app.userHelper().pause(3000);
         String loginS = app.userHelper().getText(By.xpath("//a[.='ADD']"));
         Assert.assertEquals(loginS,"ADD");
+        logger.info("Logged with email : noa@gmail.com and with password: Nnoa12345$" );
 
             }
             @Test
@@ -33,7 +34,20 @@ public class LoginTest extends TestBase{
                 app.userHelper().pause(3000);
                 String loginS = app.userHelper().getText(By.xpath("//a[.='ADD']"));
                 Assert.assertEquals(loginS,"ADD");
+                logger.info("Logged with email" + user.getEmail()+ "and with password" + user.getPassword());
 
             }
+    @Test
+    public void loginTestWithWrongPassword(){
+        User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345");
+        app.userHelper().openLoginForm();
+        app.userHelper().fillLoginForm(user);
+        app.userHelper().login();
+     //   app.userHelper().pause(3000);
+        app.userHelper().asseptAlert();
+        Assert.assertFalse(app.userHelper().isLogged());
+        logger.info("Wrong password : Nnoa12345");
+
+    }
 
 }
