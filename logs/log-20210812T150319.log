@@ -1,0 +1,34 @@
+15:03:35  INFO  manager.AppManager - Start in browser CHROME
+15:04:02  INFO  TestBase - Start method -->dataContactNotValid
+15:04:02  INFO  TestBase - Test Start with Data -->[Mona, Dow ,  , dow77@gmail.com, Haifa Herzel3, university friend]
+15:04:02  INFO  TestBase - ==================================================================
+15:04:02  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.='Sign Out']
+15:04:12  INFO  application.MyListener - The element --->By.xpath: //button[.='Sign Out']was found
+15:04:12  INFO  application.MyListener - Start ind element by --->By.xpath: //a[.='LOGIN']
+15:04:13  INFO  application.MyListener - The element --->By.xpath: //a[.='LOGIN']was found
+15:04:13  INFO  application.MyListener - Start ind element by --->By.xpath: //input[@placeholder='Email']
+15:04:13  INFO  application.MyListener - The element --->By.xpath: //input[@placeholder='Email']was found
+15:04:14  INFO  application.MyListener - Start ind element by --->By.xpath: //input[@placeholder='Password']
+15:04:14  INFO  application.MyListener - The element --->By.xpath: //input[@placeholder='Password']was found
+15:04:15  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.=' Login']
+15:04:15  INFO  application.MyListener - The element --->By.xpath: //button[.=' Login']was found
+15:04:16  INFO  application.MyListener - Start ind element by --->By.xpath: //a[.='ADD']
+15:04:18  INFO  application.MyListener - The element --->By.xpath: //a[.='ADD']was found
+15:04:18  INFO  application.MyListener - Start ind element by --->By.cssSelector: [placeholder='Name']
+15:04:18  INFO  application.MyListener - The element --->By.cssSelector: [placeholder='Name']was found
+15:04:18  INFO  application.MyListener - Start ind element by --->By.cssSelector: [placeholder='Last Name']
+15:04:18  INFO  application.MyListener - The element --->By.cssSelector: [placeholder='Last Name']was found
+15:04:19  INFO  application.MyListener - Start ind element by --->By.cssSelector: [placeholder='Phone']
+15:04:19  INFO  application.MyListener - The element --->By.cssSelector: [placeholder='Phone']was found
+15:04:19  INFO  application.MyListener - Start ind element by --->By.cssSelector: [placeholder='email']
+15:04:19  INFO  application.MyListener - The element --->By.cssSelector: [placeholder='email']was found
+15:04:20  INFO  application.MyListener - Start ind element by --->By.cssSelector: [placeholder='Address']
+15:04:20  INFO  application.MyListener - The element --->By.cssSelector: [placeholder='Address']was found
+15:04:20  INFO  application.MyListener - Start ind element by --->By.cssSelector: [placeholder='description']
+15:04:20  INFO  application.MyListener - The element --->By.cssSelector: [placeholder='description']was found
+15:04:20  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.='Save']
+15:04:20  INFO  application.MyListener - The element --->By.xpath: //button[.='Save']was found
+15:04:20  INFO  application.MyListener - Start ind element by --->By.xpath: //h3
+15:04:30  INFO  application.MyListener - The element --->By.xpath: //h3was found
+15:04:30  INFO  TestBase - Test passed
+15:04:31  INFO  TestBase - End of method -->dataContactNotValid

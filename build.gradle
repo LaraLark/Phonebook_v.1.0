@@ -12,10 +12,14 @@ repositories {
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'org.testng:testng:7.1.0'
+
     implementation 'ch.qos.logback:logback-classic:1.2.3'
-    implementation 'org.projectlombok:lombok:1.18.20'
-    implementation 'org.projectlombok:lombok:1.18.20'
-    implementation 'org.projectlombok:lombok:1.18.20'
+
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
 
 
 }
@@ -44,12 +48,6 @@ task reg(type: Test){
         }
 
     }
-
-
-
-
-
-
 
     if(project.hasProperty('browser')){
         systemProperty 'browser', "${browser}"

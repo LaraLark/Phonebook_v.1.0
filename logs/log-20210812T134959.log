@@ -1,0 +1,39 @@
+13:50:06  INFO  manager.AppManager - Start in browser CHROME
+13:50:12  INFO  TestBase - Start method -->addContactTestBase
+13:50:12  INFO  TestBase - Test Start with Data -->[]
+13:50:12  INFO  TestBase - ==================================================================
+13:50:12  INFO  application.MyListener - Start find element by -->By.xpath: //button[.='Sign Out']
+13:50:22  INFO  application.MyListener - The element -->By.xpath: //button[.='Sign Out']was found
+13:50:22  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='LOGIN']
+13:50:22  INFO  application.MyListener - The element -->By.xpath: //a[.='LOGIN']was found
+13:50:22  INFO  application.MyListener - Start find element by -->By.xpath: //input[@placeholder='Email']
+13:50:22  INFO  application.MyListener - The element -->By.xpath: //input[@placeholder='Email']was found
+13:50:23  INFO  application.MyListener - Start find element by -->By.xpath: //input[@placeholder='Password']
+13:50:23  INFO  application.MyListener - The element -->By.xpath: //input[@placeholder='Password']was found
+13:50:23  INFO  application.MyListener - Start find element by -->By.xpath: //button[.=' Login']
+13:50:23  INFO  application.MyListener - The element -->By.xpath: //button[.=' Login']was found
+13:50:24  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='ADD']
+13:50:25  INFO  application.MyListener - The element -->By.xpath: //a[.='ADD']was found
+13:50:25  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Name']
+13:50:25  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Name']was found
+13:50:26  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Last Name']
+13:50:26  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Last Name']was found
+13:50:26  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Phone']
+13:50:26  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Phone']was found
+13:50:26  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='email']
+13:50:26  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='email']was found
+13:50:26  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Address']
+13:50:26  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Address']was found
+13:50:27  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='description']
+13:50:27  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='description']was found
+13:50:27  INFO  application.MyListener - Start find element by -->By.cssSelector: div[class='add_form__2rsm2'] button b
+13:50:27  INFO  application.MyListener - The element -->By.cssSelector: div[class='add_form__2rsm2'] button bwas found
+13:50:38  INFO  application.MyListener - Screen ->>src/test/screenshots/screen-3037.png
+13:50:38  INFO  application.MyListener - element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ILYA-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ADMINI~1.ILY\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 39d4b0a343304d668e14b50b77d80f1f
+13:50:38  INFO  TestBase - End of method -->addContactTestBase

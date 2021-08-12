@@ -10,10 +10,12 @@ public class HelperBase {
     public WebDriver wd;
 
     public HelperBase(WebDriver wd) {
+
         this.wd = wd;
     }
 
     public void click(By locator) {
+
         wd.findElement(locator).click();
     }
 
@@ -40,14 +42,11 @@ public class HelperBase {
 
     public void takeScreenshot(String pathToFile){
         File tmp = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
-
         File screenshot = new File(pathToFile);
         try {
             Files.copy(tmp,screenshot);
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }

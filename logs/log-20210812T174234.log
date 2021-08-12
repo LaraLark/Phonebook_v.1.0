@@ -1,0 +1,18 @@
+17:42:40  INFO  manager.AppManager - Start in browser CHROME
+17:42:56  INFO  TestBase - Start method -->loginTestWithWrongPassword
+17:42:56  INFO  TestBase - Test Start with Data -->[]
+17:42:56  INFO  TestBase - ==================================================================
+17:42:56  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.='Sign Out']
+17:43:06  INFO  application.MyListener - The element --->By.xpath: //button[.='Sign Out']was found
+17:43:06  INFO  application.MyListener - Start ind element by --->By.xpath: //a[.='LOGIN']
+17:43:06  INFO  application.MyListener - The element --->By.xpath: //a[.='LOGIN']was found
+17:43:07  INFO  application.MyListener - Start ind element by --->By.xpath: //input[@placeholder='Email']
+17:43:07  INFO  application.MyListener - The element --->By.xpath: //input[@placeholder='Email']was found
+17:43:08  INFO  application.MyListener - Start ind element by --->By.xpath: //input[@placeholder='Password']
+17:43:08  INFO  application.MyListener - The element --->By.xpath: //input[@placeholder='Password']was found
+17:43:08  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.=' Login']
+17:43:08  INFO  application.MyListener - The element --->By.xpath: //button[.=' Login']was found
+17:43:11  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.='Sign Out']
+17:43:21  INFO  application.MyListener - The element --->By.xpath: //button[.='Sign Out']was found
+17:43:21  INFO  TestBase - Wrong password : Nnoa12345
+17:43:21  INFO  TestBase - End of method -->loginTestWithWrongPassword

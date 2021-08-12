@@ -45,6 +45,13 @@ public class AppManager {
     public void stop(){
         wd.quit();
     }
+    public void pause(int millise){
+        try{
+            Thread.sleep(millise);
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+    }
 
     public UserHelper userHelper() {
         return userHelper;

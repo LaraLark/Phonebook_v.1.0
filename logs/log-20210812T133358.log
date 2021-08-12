@@ -1,0 +1,129 @@
+13:34:05  INFO  manager.AppManager - Start in browser CHROME
+13:34:08  INFO  TestBase - Start method -->addContactTestBase
+13:34:08  INFO  TestBase - Test Start with Data -->[]
+13:34:08  INFO  TestBase - ==================================================================
+13:34:08  INFO  application.MyListener - Start find element by -->By.xpath: //button[.='Sign Out']
+13:34:18  INFO  application.MyListener - The element -->By.xpath: //button[.='Sign Out']was found
+13:34:18  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='LOGIN']
+13:34:19  INFO  application.MyListener - The element -->By.xpath: //a[.='LOGIN']was found
+13:34:19  INFO  application.MyListener - Start find element by -->By.xpath: //input[@placeholder='Email']
+13:34:19  INFO  application.MyListener - The element -->By.xpath: //input[@placeholder='Email']was found
+13:34:19  INFO  application.MyListener - Start find element by -->By.xpath: //input[@placeholder='Password']
+13:34:19  INFO  application.MyListener - The element -->By.xpath: //input[@placeholder='Password']was found
+13:34:19  INFO  application.MyListener - Start find element by -->By.xpath: //button[.=' Login']
+13:34:19  INFO  application.MyListener - The element -->By.xpath: //button[.=' Login']was found
+13:34:21  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='ADD']
+13:34:21  INFO  application.MyListener - The element -->By.xpath: //a[.='ADD']was found
+13:34:21  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Name']
+13:34:21  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Name']was found
+13:34:21  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Last Name']
+13:34:21  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Last Name']was found
+13:34:22  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Phone']
+13:34:22  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Phone']was found
+13:34:22  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='email']
+13:34:22  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='email']was found
+13:34:22  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Address']
+13:34:22  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Address']was found
+13:34:22  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='description']
+13:34:23  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='description']was found
+13:34:23  INFO  application.MyListener - Start find element by -->By.xpath: //button/b
+13:34:23  INFO  application.MyListener - The element -->By.xpath: //button/bwas found
+13:34:34  INFO  application.MyListener - Screen ->>src/test/screenshots/screen-2073.png
+13:34:34  INFO  application.MyListener - element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ILYA-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ADMINI~1.ILY\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 805ad9fe3f95d4fecbef1a6d7e0d2687
+13:34:34  INFO  TestBase - End of method -->addContactTestBase
+13:34:34  INFO  TestBase - Start method -->addContactTestDataProvider
+13:34:34  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9877776500, dow77@gmail.co, Haifa Herzel3, university friend]
+13:34:34  INFO  TestBase - ==================================================================
+13:34:34  INFO  application.MyListener - Start find element by -->By.xpath: //button[.='Sign Out']
+13:34:34  INFO  application.MyListener - The element -->By.xpath: //button[.='Sign Out']was found
+13:34:34  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='ADD']
+13:34:34  INFO  application.MyListener - The element -->By.xpath: //a[.='ADD']was found
+13:34:34  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Name']
+13:34:34  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Name']was found
+13:34:34  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Last Name']
+13:34:34  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Last Name']was found
+13:34:34  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Phone']
+13:34:34  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Phone']was found
+13:34:34  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='email']
+13:34:35  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='email']was found
+13:34:35  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Address']
+13:34:35  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Address']was found
+13:34:35  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='description']
+13:34:35  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='description']was found
+13:34:35  INFO  application.MyListener - Start find element by -->By.xpath: //button/b
+13:34:35  INFO  application.MyListener - The element -->By.xpath: //button/bwas found
+13:34:46  INFO  application.MyListener - Screen ->>src/test/screenshots/screen-2085.png
+13:34:46  INFO  application.MyListener - element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ILYA-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ADMINI~1.ILY\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 805ad9fe3f95d4fecbef1a6d7e0d2687
+13:34:46  INFO  TestBase - End of method -->addContactTestDataProvider
+13:34:46  INFO  TestBase - Start method -->addContactTestDataProvider
+13:34:46  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9817776500, dow78@gmail.co, Haifa Herzel3, university friend]
+13:34:46  INFO  TestBase - ==================================================================
+13:34:46  INFO  application.MyListener - Start find element by -->By.xpath: //button[.='Sign Out']
+13:34:46  INFO  application.MyListener - The element -->By.xpath: //button[.='Sign Out']was found
+13:34:46  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='ADD']
+13:34:46  INFO  application.MyListener - The element -->By.xpath: //a[.='ADD']was found
+13:34:46  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Name']
+13:34:46  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Name']was found
+13:34:47  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Last Name']
+13:34:47  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Last Name']was found
+13:34:47  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Phone']
+13:34:47  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Phone']was found
+13:34:47  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='email']
+13:34:47  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='email']was found
+13:34:47  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Address']
+13:34:47  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Address']was found
+13:34:48  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='description']
+13:34:48  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='description']was found
+13:34:48  INFO  application.MyListener - Start find element by -->By.xpath: //button/b
+13:34:48  INFO  application.MyListener - The element -->By.xpath: //button/bwas found
+13:34:59  INFO  application.MyListener - Screen ->>src/test/screenshots/screen-2098.png
+13:34:59  INFO  application.MyListener - element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ILYA-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ADMINI~1.ILY\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 805ad9fe3f95d4fecbef1a6d7e0d2687
+13:34:59  INFO  TestBase - End of method -->addContactTestDataProvider
+13:34:59  INFO  TestBase - Start method -->addContactTestDataProvider
+13:34:59  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9827776500, dow79@gmail.co, Haifa Herzel3, university friend]
+13:34:59  INFO  TestBase - ==================================================================
+13:34:59  INFO  application.MyListener - Start find element by -->By.xpath: //button[.='Sign Out']
+13:35:00  INFO  application.MyListener - The element -->By.xpath: //button[.='Sign Out']was found
+13:35:00  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='ADD']
+13:35:00  INFO  application.MyListener - The element -->By.xpath: //a[.='ADD']was found
+13:35:00  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Name']
+13:35:00  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Name']was found
+13:35:00  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Last Name']
+13:35:00  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Last Name']was found
+13:35:01  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Phone']
+13:35:01  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Phone']was found
+13:35:01  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='email']
+13:35:01  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='email']was found
+13:35:02  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='Address']
+13:35:02  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='Address']was found
+13:35:02  INFO  application.MyListener - Start find element by -->By.cssSelector: [placeholder='description']
+13:35:02  INFO  application.MyListener - The element -->By.cssSelector: [placeholder='description']was found
+13:35:03  INFO  application.MyListener - Start find element by -->By.xpath: //button/b
+13:35:03  INFO  application.MyListener - The element -->By.xpath: //button/bwas found
+13:35:14  INFO  application.MyListener - Screen ->>src/test/screenshots/screen-2113.png
+13:35:14  INFO  application.MyListener - element not interactable
+  (Session info: chrome=92.0.4515.131)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ILYA-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ADMINI~1.ILY\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51710}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 805ad9fe3f95d4fecbef1a6d7e0d2687
+13:35:14  INFO  TestBase - End of method -->addContactTestDataProvider

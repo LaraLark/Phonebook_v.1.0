@@ -10,9 +10,11 @@ public class UserHelper extends HelperBase{
 
 
     public UserHelper(WebDriver wd) {
+
         super(wd);
     }
     public void openLoginForm(){
+
         click(By.xpath("//a[.='LOGIN']"));
     }
     public void fillLoginForm(String email, String password){

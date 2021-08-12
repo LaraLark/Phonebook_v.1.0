@@ -17,7 +17,8 @@ public class ContactHelper  extends HelperBase{
     }
 
     public void saveContact() {
-        click(By.xpath("//button/b"));
+
+        click(By.xpath("//button[.='Save']"));
     }
 
     public void fillFormContact(Contact contact) {
@@ -61,7 +62,11 @@ public class ContactHelper  extends HelperBase{
                 pause(2000);
             }
         }
-    }
+
+  //  public boolean isContactNotAdded() {
+  //      return wd.findElements(By.xpath("//a[.='ADD']")).size()>0;
+   // }
+}
 
 
 

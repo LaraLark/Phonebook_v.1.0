@@ -17,25 +17,24 @@ public class MyListener extends AbstractWebDriverEventListener {
     @Override
     public void beforeFindBy(By by, WebElement element, WebDriver driver) {
         super.beforeFindBy(by, element, driver);
-
-        logger.info("Start find element by -->" + by);
+        logger.info("Start ind element by --->" + by);
     }
 
     @Override
     public void afterFindBy(By by, WebElement element, WebDriver driver) {
         super.afterFindBy(by, element, driver);
-        logger.info("The element -->" + by + "was found");
+        logger.info("The element --->" + by + "was found");
     }
 
     @Override
     public void onException(Throwable throwable, WebDriver driver) {
         super.onException(throwable, driver);
-
-        int i=(int) (System.currentTimeMillis()/1000)%3600;
-        String path= "src/test/screenshots/screen-" +i +".png";
+        int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+        String path = "src/test/screenshots/screen -" + i + ".png";
         HelperBase base = new HelperBase(driver);
         base.takeScreenshot(path);
-        logger.info("Screen ->>" +path);
+        logger.info("Screen ->>" + path);
         logger.info(throwable.getMessage());
     }
+
 }

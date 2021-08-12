@@ -1,0 +1,49 @@
+13:25:24  INFO  manager.AppManager - Start in browser CHROME
+13:25:28  INFO  TestBase - Start method -->addContactTestBase
+13:25:28  INFO  TestBase - Test Start with Data -->[]
+13:25:28  INFO  TestBase - ==================================================================
+13:25:28  INFO  application.MyListener - Start find element by -->By.xpath: //button[.='Sign Out']
+13:25:38  INFO  application.MyListener - The element -->By.xpath: //button[.='Sign Out']was found
+13:25:38  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='LOGIN']
+13:25:38  INFO  application.MyListener - The element -->By.xpath: //a[.='LOGIN']was found
+13:25:38  INFO  application.MyListener - Start find element by -->By.xpath: //input[@placeholder='Email']
+13:25:38  INFO  application.MyListener - The element -->By.xpath: //input[@placeholder='Email']was found
+13:25:38  INFO  application.MyListener - Start find element by -->By.xpath: //input[@placeholder='Password']
+13:25:38  INFO  application.MyListener - The element -->By.xpath: //input[@placeholder='Password']was found
+13:25:39  INFO  application.MyListener - Start find element by -->By.xpath: //button[.=' Login']
+13:25:39  INFO  application.MyListener - The element -->By.xpath: //button[.=' Login']was found
+13:25:40  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='ADD']
+13:25:42  INFO  application.MyListener - Screen ->>src/test/screenshots/screen-1540.png
+13:25:42  INFO  application.MyListener - unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=92.0.4515.131): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ILYA-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ADMINI~1.ILY\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 528e2eb0a0f7a52ce4d5f7a36205fec9
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+13:25:42  INFO  TestBase - End of method -->addContactTestBase
+13:25:42  INFO  TestBase - Start method -->addContactTestDataProvider
+13:25:42  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9877776500, dow77@gmail.co, Haifa Herzel3, university friend]
+13:25:42  INFO  TestBase - ==================================================================
+13:25:42  INFO  application.MyListener - Start find element by -->By.xpath: //button[.='Sign Out']
+13:25:49  INFO  application.MyListener - The element -->By.xpath: //button[.='Sign Out']was found
+13:25:49  INFO  application.MyListener - Start find element by -->By.xpath: //a[.='LOGIN']
+13:25:49  INFO  application.MyListener - Screen ->>src/test/screenshots/screen-1549.png
+13:25:49  INFO  application.MyListener - unexpected alert open: {Alert text : Wrong email or password}
+  (Session info: chrome=92.0.4515.131): Wrong email or password
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ILYA-LAPTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ADMINI~1.ILY\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 528e2eb0a0f7a52ce4d5f7a36205fec9
+*** Element info: {Using=xpath, value=//a[.='LOGIN']}
+13:25:49  INFO  TestBase - End of method -->addContactTestDataProvider
+13:25:49  INFO  TestBase - Start method -->addContactTestDataProvider
+13:25:49  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9817776500, dow78@gmail.co, Haifa Herzel3, university friend]
+13:25:49  INFO  TestBase - ==================================================================
+13:25:49  INFO  TestBase - End of method -->addContactTestDataProvider
+13:25:49  INFO  TestBase - Start method -->addContactTestDataProvider
+13:25:49  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9827776500, dow79@gmail.co, Haifa Herzel3, university friend]
+13:25:49  INFO  TestBase - ==================================================================
+13:25:49  INFO  TestBase - End of method -->addContactTestDataProvider

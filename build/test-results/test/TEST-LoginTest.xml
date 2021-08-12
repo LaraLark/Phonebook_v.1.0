@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-12T14:43:06" hostname="ILYA-LAPTOP" time="15.386">
+  <properties/>
+  <testcase name="loginTestWithWrongPassword" classname="LoginTest" time="15.386"/>
+  <system-out><![CDATA[17:42:56  INFO  TestBase - Start method -->loginTestWithWrongPassword
+17:42:56  INFO  TestBase - Test Start with Data -->[]
+17:42:56  INFO  TestBase - ==================================================================
+17:42:56  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.='Sign Out']
+17:43:06  INFO  application.MyListener - The element --->By.xpath: //button[.='Sign Out']was found
+17:43:06  INFO  application.MyListener - Start ind element by --->By.xpath: //a[.='LOGIN']
+17:43:06  INFO  application.MyListener - The element --->By.xpath: //a[.='LOGIN']was found
+17:43:07  INFO  application.MyListener - Start ind element by --->By.xpath: //input[@placeholder='Email']
+17:43:07  INFO  application.MyListener - The element --->By.xpath: //input[@placeholder='Email']was found
+17:43:08  INFO  application.MyListener - Start ind element by --->By.xpath: //input[@placeholder='Password']
+17:43:08  INFO  application.MyListener - The element --->By.xpath: //input[@placeholder='Password']was found
+17:43:08  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.=' Login']
+17:43:08  INFO  application.MyListener - The element --->By.xpath: //button[.=' Login']was found
+17:43:11  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.='Sign Out']
+17:43:21  INFO  application.MyListener - The element --->By.xpath: //button[.='Sign Out']was found
+17:43:21  INFO  TestBase - Wrong password : Nnoa12345
+17:43:21  INFO  TestBase - End of method -->loginTestWithWrongPassword
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
