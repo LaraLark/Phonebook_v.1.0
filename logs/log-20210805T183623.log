@@ -1,0 +1,9 @@
+18:36:34  INFO  application.ApplicationManager - Start browser CHROME
+18:36:36  INFO  application.ApplicationManager - Navigate to--->https://contacts-app.tobbymarshall815.vercel.app/login
+18:36:36  INFO  TestBase - Start method --->loginTestDataProvider
+18:36:51  INFO  TestBase - Logged with email--->noa@gmail.comand with password--->Nnoa12345$
+18:36:51  INFO  TestBase - End of method --->loginTestDataProvider
+18:36:51  INFO  TestBase - Start method --->loginTestDataProvider
+18:36:56  INFO  TestBase - End of method --->loginTestDataProvider
+18:36:56  INFO  TestBase - Start method --->loginTestDataProvider
+18:37:11  INFO  TestBase - End of method --->loginTestDataProvider

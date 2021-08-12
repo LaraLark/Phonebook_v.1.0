@@ -1,0 +1,8 @@
+16:30:37  INFO  application.ApplicationManager - Start browser CHROME
+16:30:50  INFO  application.ApplicationManager - Navigate to--->https://contacts-app.tobbymarshall815.vercel.app/login
+16:30:50  INFO  TestBase - Start method --->loginTestDP_CSV
+16:31:11  INFO  TestBase - End of method --->loginTestDP_CSV
+16:31:11  INFO  TestBase - Start method --->loginTestDP_CSV
+16:31:15  INFO  TestBase - End of method --->loginTestDP_CSV
+16:31:15  INFO  TestBase - Start method --->loginTestDP_CSV
+16:31:20  INFO  TestBase - End of method --->loginTestDP_CSV

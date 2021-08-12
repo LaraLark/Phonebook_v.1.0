@@ -33,13 +33,20 @@ public class UserHelper extends HelperBase{
             return wd.findElements(By.xpath("//button[.='Sign Out']")).size() > 0;
         }
 
-    public void login() {
+    public void login(User nnoa12345$) {
         click(By.xpath("//button[.=' Login']"));
     }
 
     public void asseptAlert() {
         new WebDriverWait(wd,10).until(ExpectedConditions.alertIsPresent());
         wd.switchTo().alert().accept();
+    }
+
+    public void loginUser(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        login(new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$"));
+        pause(1000);
     }
 }
 
