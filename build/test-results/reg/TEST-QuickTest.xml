@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="QuickTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-29T17:52:42" hostname="ILYA-LAPTOP" time="0.003">
+<testsuite name="QuickTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-08-30T11:21:19" hostname="ILYA-LAPTOP" time="0.0">
   <properties/>
-  <testcase name="quickTest" classname="QuickTest" time="0.003"/>
-  <system-out><![CDATA[I'm Quick Test
+  <testcase name="quickTest" classname="QuickTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[14:21:19  INFO  TestBase - Start method -->quickTest
+14:21:19  INFO  TestBase - Test Start with Data -->[]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->quickTest
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -51,8 +51,8 @@ public class AddContactTest extends TestBase {
     }
     //dataContactNotValid
 
-    @Test(priority = 3, dataProvider="dataContactNotValid",dataProviderClass = MyDataProvider.class)
-    public void dataContactNotValid (String name,String lastname, String phone,String email, String address, String description){
+  //  @Test(priority = 3, dataProvider="dataContactNotValid",dataProviderClass = MyDataProvider.class)
+  /*  public void dataContactNotValid (String name,String lastname, String phone,String email, String address, String description){
 
         Contact contact = Contact.builder()
                 .name(name)
@@ -68,7 +68,7 @@ public class AddContactTest extends TestBase {
         app.contact().saveContact();
         Assert.assertFalse(app.contact().isContactAdded(contact.getPhone()));
         logger.info("Test passed");
-    }
+    }*/
 
 }
 

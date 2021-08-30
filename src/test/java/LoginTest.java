@@ -108,7 +108,7 @@ public class LoginTest extends TestBase {
     }
 
     //dataFileNotValid
-    @Test(dataProvider = "dataFileNotValid", dataProviderClass = MyDataProvider.class, priority = 7)
+  /*  @Test(dataProvider = "dataFileNotValid", dataProviderClass = MyDataProvider.class, priority = 7)
 
     public void loginTestNotValidData(User user) {
 
@@ -119,5 +119,5 @@ public class LoginTest extends TestBase {
         Assert.assertFalse(app.userHelper().isLogged());
         logger.info("Try logged with email--->" + user.getEmail() + "and with password--->" + user.getPassword());
 
-    }
+    }*/
 }

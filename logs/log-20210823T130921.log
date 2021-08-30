@@ -1,0 +1,5 @@
+13:09:25  INFO  manager.AppManager - Start in browser CHROME
+13:09:28  INFO  TestBase - Start method -->smokeTest
+13:09:28  INFO  TestBase - Test Start with Data -->[]
+13:09:28  INFO  TestBase - ==================================================================
+13:09:28  INFO  TestBase - End of method -->smokeTest

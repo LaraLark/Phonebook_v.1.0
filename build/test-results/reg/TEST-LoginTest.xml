@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginTest" tests="12" skipped="12" failures="0" errors="0" timestamp="2021-08-30T11:21:19" hostname="ILYA-LAPTOP" time="0.165">
+  <properties/>
+  <testcase name="loginTestPositive" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestPositiveDto" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestWithWrongPassword" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDataProvider" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDataProvider" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDataProvider" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDataProviderClass" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDataProviderClass" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDataProviderClass" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDP_CSV" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDP_CSV" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTestDP_CSV" classname="LoginTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[14:21:19  INFO  TestBase - Start method -->loginTestPositive
+14:21:19  INFO  TestBase - Test Start with Data -->[]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestPositive
+14:21:19  INFO  TestBase - Start method -->loginTestPositiveDto
+14:21:19  INFO  TestBase - Test Start with Data -->[]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestPositiveDto
+14:21:19  INFO  TestBase - Start method -->loginTestWithWrongPassword
+14:21:19  INFO  TestBase - Test Start with Data -->[]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestWithWrongPassword
+14:21:19  INFO  TestBase - Start method -->loginTestDataProvider
+14:21:19  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDataProvider
+14:21:19  INFO  TestBase - Start method -->loginTestDataProvider
+14:21:19  INFO  TestBase - Test Start with Data -->[sonya@gmail.com, Ss12345$]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDataProvider
+14:21:19  INFO  TestBase - Start method -->loginTestDataProvider
+14:21:19  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDataProvider
+14:21:19  INFO  TestBase - Start method -->loginTestDataProviderClass
+14:21:19  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDataProviderClass
+14:21:19  INFO  TestBase - Start method -->loginTestDataProviderClass
+14:21:19  INFO  TestBase - Test Start with Data -->[sonya@gmail.com, Ss12345$]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDataProviderClass
+14:21:19  INFO  TestBase - Start method -->loginTestDataProviderClass
+14:21:19  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDataProviderClass
+14:21:19  INFO  TestBase - Start method -->loginTestDP_CSV
+14:21:19  INFO  TestBase - Test Start with Data -->[User{email= 'noa@gmail.compassword='Nnoa12345$'}]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDP_CSV
+14:21:19  INFO  TestBase - Start method -->loginTestDP_CSV
+14:21:19  INFO  TestBase - Test Start with Data -->[User{email= 'noa@gmail.compassword='Nnoa12345$'}]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDP_CSV
+14:21:19  INFO  TestBase - Start method -->loginTestDP_CSV
+14:21:19  INFO  TestBase - Test Start with Data -->[User{email= 'noa@gmail.compassword='Nnoa12345$'}]
+14:21:19  INFO  TestBase - ==================================================================
+14:21:19  INFO  TestBase - End of method -->loginTestDP_CSV
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

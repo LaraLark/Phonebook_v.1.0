@@ -1,0 +1,12 @@
+18:43:32  INFO  TestBase - Start method -->addContactTestDataProvider
+18:43:32  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9877776500, dow77@gmail.com, Haifa Herzel3, university friend]
+18:43:33  INFO  TestBase - ==================================================================
+18:43:33  INFO  TestBase - End of method -->addContactTestDataProvider
+18:43:33  INFO  TestBase - Start method -->addContactTestDataProvider
+18:43:33  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9817776500, dow78@gmail.com, Haifa Herzel3, university friend]
+18:43:33  INFO  TestBase - ==================================================================
+18:43:33  INFO  TestBase - End of method -->addContactTestDataProvider
+18:43:33  INFO  TestBase - Start method -->addContactTestDataProvider
+18:43:33  INFO  TestBase - Test Start with Data -->[Mona, Dow, 9827776500, dow79@gmail.com, Haifa Herzel3, university friend]
+18:43:33  INFO  TestBase - ==================================================================
+18:43:33  INFO  TestBase - End of method -->addContactTestDataProvider

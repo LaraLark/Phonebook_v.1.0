@@ -1,0 +1,8 @@
+20:40:53  INFO  TestBase - Start method -->smokeTest
+20:40:53  INFO  TestBase - Test Start with Data -->[]
+20:40:53  INFO  TestBase - ==================================================================
+20:40:53  INFO  TestBase - End of method -->smokeTest
+20:40:53  INFO  TestBase - Start method -->quickTest
+20:40:53  INFO  TestBase - Test Start with Data -->[]
+20:40:53  INFO  TestBase - ==================================================================
+20:40:53  INFO  TestBase - End of method -->quickTest
