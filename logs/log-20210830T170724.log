@@ -1,0 +1,56 @@
+17:09:03  INFO  TestBase - Start method -->smokeTest
+17:09:03  INFO  TestBase - Test Start with Data -->[]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->smokeTest
+17:09:03  INFO  TestBase - Start method -->quickTest
+17:09:03  INFO  TestBase - Test Start with Data -->[]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->quickTest
+17:09:03  INFO  TestBase - Start method -->loginTestPositive
+17:09:03  INFO  TestBase - Test Start with Data -->[]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestPositive
+17:09:03  INFO  TestBase - Start method -->loginTestPositiveDto
+17:09:03  INFO  TestBase - Test Start with Data -->[]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestPositiveDto
+17:09:03  INFO  TestBase - Start method -->loginTestWithWrongPassword
+17:09:03  INFO  TestBase - Test Start with Data -->[]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestWithWrongPassword
+17:09:03  INFO  TestBase - Start method -->loginTestDataProvider
+17:09:03  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDataProvider
+17:09:03  INFO  TestBase - Start method -->loginTestDataProvider
+17:09:03  INFO  TestBase - Test Start with Data -->[sonya@gmail.com, Ss12345$]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDataProvider
+17:09:03  INFO  TestBase - Start method -->loginTestDataProvider
+17:09:03  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDataProvider
+17:09:03  INFO  TestBase - Start method -->loginTestDataProviderClass
+17:09:03  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDataProviderClass
+17:09:03  INFO  TestBase - Start method -->loginTestDataProviderClass
+17:09:03  INFO  TestBase - Test Start with Data -->[sonya@gmail.com, Ss12345$]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDataProviderClass
+17:09:03  INFO  TestBase - Start method -->loginTestDataProviderClass
+17:09:03  INFO  TestBase - Test Start with Data -->[noa@gmail.com, Nnoa12345$]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDataProviderClass
+17:09:03  INFO  TestBase - Start method -->loginTestDP_CSV
+17:09:03  INFO  TestBase - Test Start with Data -->[User{email= 'noa@gmail.compassword='Nnoa12345$'}]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDP_CSV
+17:09:03  INFO  TestBase - Start method -->loginTestDP_CSV
+17:09:03  INFO  TestBase - Test Start with Data -->[User{email= 'noa@gmail.compassword='Nnoa12345$'}]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDP_CSV
+17:09:03  INFO  TestBase - Start method -->loginTestDP_CSV
+17:09:03  INFO  TestBase - Test Start with Data -->[User{email= 'noa@gmail.compassword='Nnoa12345$'}]
+17:09:03  INFO  TestBase - ==================================================================
+17:09:03  INFO  TestBase - End of method -->loginTestDP_CSV

@@ -1,19 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-08-30T14:55:43" hostname="ILYA-LAPTOP" time="100.13">
-  <properties/>
-  <testcase name="loginTestPositive" classname="LoginTest" time="21.246"/>
-  <testcase name="loginTestPositiveDto" classname="LoginTest" time="5.575"/>
-  <testcase name="loginTestWithWrongPassword" classname="LoginTest" time="20.174"/>
-  <testcase name="loginTestDataProvider[0](noa@gmail.com, Nnoa12345$)" classname="LoginTest" time="4.956"/>
-  <testcase name="loginTestDataProvider[1](sonya@gmail.com, Ss12345$)" classname="LoginTest" time="6.352"/>
-  <testcase name="loginTestDataProvider[2](noa@gmail.com, Nnoa12345$)" classname="LoginTest" time="3.976"/>
-  <testcase name="loginTestDataProviderClass[0](noa@gmail.com, Nnoa12345$)" classname="LoginTest" time="3.929"/>
-  <testcase name="loginTestDataProviderClass[1](sonya@gmail.com, Ss12345$)" classname="LoginTest" time="4.046"/>
-  <testcase name="loginTestDataProviderClass[2](noa@gmail.com, Nnoa12345$)" classname="LoginTest" time="4.569"/>
-  <testcase name="loginTestDP_CSV[0](User{email= 'noa@gmail.compassword='Nnoa12345$'})" classname="LoginTest" time="4.962"/>
-  <testcase name="loginTestDP_CSV[1](User{email= 'noa@gmail.compassword='Nnoa12345$'})" classname="LoginTest" time="3.9"/>
-  <testcase name="loginTestDP_CSV[2](User{email= 'noa@gmail.compassword='Nnoa12345$'})" classname="LoginTest" time="3.926"/>
-  <system-out><![CDATA[17:55:32  INFO  TestBase - Start method -->loginTestPositive
+17:55:19  INFO  manager.AppManager - Start in browser CHROME
+17:55:32  INFO  TestBase - Start method -->smokeTest
+17:55:32  INFO  TestBase - Test Start with Data -->[]
+17:55:32  INFO  TestBase - ==================================================================
+17:55:32  INFO  TestBase - End of method -->smokeTest
+17:55:32  INFO  TestBase - Start method -->quickTest
+17:55:32  INFO  TestBase - Test Start with Data -->[]
+17:55:32  INFO  TestBase - ==================================================================
+17:55:32  INFO  TestBase - End of method -->quickTest
+17:55:32  INFO  TestBase - Start method -->loginTestPositive
 17:55:32  INFO  TestBase - Test Start with Data -->[]
 17:55:32  INFO  TestBase - ==================================================================
 17:55:32  INFO  application.MyListener - Start ind element by --->By.xpath: //button[.='Sign Out']
@@ -234,6 +228,3 @@
 17:57:24  INFO  application.MyListener - Start ind element by --->By.xpath: //a[.='ADD']
 17:57:24  INFO  application.MyListener - The element --->By.xpath: //a[.='ADD']was found
 17:57:24  INFO  TestBase - End of method -->loginTestDP_CSV
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
